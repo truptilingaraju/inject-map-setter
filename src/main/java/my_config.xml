@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	 <bean id="myShop" class="com.ty.Shop">
+	 <property name="name" value="Vaibhav"></property>
+	 <property name="items">
+	 <map>
+	 <entry key="Apple" value="90.54"></entry>
+	 <entry key="Carrot" value="55.25"></entry>
+	 <entry key="Mango" value="72.36"></entry>
+	 </map>
+	 </property>
+	 </bean>
+
+</beans>
